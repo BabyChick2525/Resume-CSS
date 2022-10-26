@@ -1,5 +1,10 @@
 body{
-  background-color: #ccffff;
+  background-color: #00FFFF;
+  background-image: url("../images/BGforWeb.jpg");
+  background-size: cover;
+  background-blend-mode: lighten;
+  background-attachment: fixed;
+  background-position: center;
   margin: 0px;
   text-align: center;
   font-family:verdana,sans-serif;
@@ -7,6 +12,13 @@ body{
 div{
 /* background-color: #ccffff;*/
   text-align: center;
+}
+hr{
+  border-style:dotted none none ;
+  border-color: gray;
+  border-width: 10px;
+  width: 100%;
+
 }
 h1{
   margin-top: 50px;
@@ -75,7 +87,12 @@ bottom : 300px;
 .top-container{
   position: relative;
   padding-top: 100px;
-  background-color: #7895B2;
+  background-color: #FFFAFA;
+  background-image: url("../images/HeaderBG.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-blend-mode: multiply;
 }
 .top-cloud{
   position: absolute;
